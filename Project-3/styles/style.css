@@ -1,5 +1,29 @@
-form {
-    border: 2px solid tomato;
-    border-radius: 10px;
-    padding: 24px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+.form1 {
+  border: 2px solid tomato;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.form2 {
+  width: 600px;
+  background-color: chartreuse;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 100px;
+}
+
+.form2 > h2,
+p {
+  text-align: center;
 }

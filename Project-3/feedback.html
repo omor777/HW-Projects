@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <form action="" class="form2">
+      <h2>Feedback</h2>
+      <p style="margin-bottom: 2rem">
+        Please provide your feedback in the form below
+      </p>
+
+      <label for="rate">How do you rate your overall experience?</label><br />
+      <select
+        style="
+          width: 100%;
+          padding: 10px;
+          margin-top: 8px;
+          border-radius: 4px;
+          margin-bottom: 10px;
+          text-align: center;
+        "
+        name="rate"
+        id="rate"
+      >
+        <option value="excellent">Excellent!</option>
+        <option value="good">Good</option>
+        <option value="bad">Bad</option>
+        <option value="very-bad">Very bad</option>
+      </select>
+      <label for="comment">Comments:</label><br />
+      <textarea
+        placeholder="Your comments here..."
+        style="width: 100%; padding: 10px; border-radius: 4px; resize: none"
+        name="comment"
+        id="comment"
+        cols="20"
+        rows="6"
+      ></textarea>
+
+      <div style="margin-top: 1rem; display: flex; align-items: center; gap: 1rem;">
+        <div>
+          <label for="name">Your Name: </label><br>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            style="padding: 8px; border-radius: 4px; outline: none"
+          />
+        </div>
+        <div>
+          <label for="email">Your Email: </label><br>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            style="padding: 8px; border-radius: 4px; outline: none"
+          />
+        </div>
+      </div>
+      <input style="padding: 8px 20px; border-radius: 4px; border: none; outline: none; margin-top: 1.2rem; background-color: brown; color:#ffe; font-weight: 600;" type="submit" value="Post">
+    </form>
+  </body>
+</html>
